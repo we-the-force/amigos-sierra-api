@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "campanas",
+  "info": {
+    "name": "Campaña"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Subtitulo": {
+      "type": "string",
+      "maxLength": 140,
+      "required": false
+    },
+    "Activa": {
+      "type": "boolean"
+    },
+    "Descripcion": {
+      "type": "richtext"
+    },
+    "Cover": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "Video": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Vencimiento": {
+      "type": "date"
+    },
+    "Paquetes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "paquetes.paquetes"
+    },
+    "Objetivo": {
+      "type": "decimal"
+    },
+    "donaciones": {
+      "collection": "donacion",
+      "via": "campana"
+    },
+    "noticias": {
+      "collection": "noticia",
+      "via": "campana"
+    }
+  }
+}

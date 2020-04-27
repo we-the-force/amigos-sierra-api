@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "components_paquetes_paquetes",
+  "info": {
+    "name": "Paquetes",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string",
+      "required": true,
+      "maxLength": 140
+    },
+    "Cantidad": {
+      "type": "decimal",
+      "required": true
+    },
+    "Icono": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

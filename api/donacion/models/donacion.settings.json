@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "donacions",
+  "info": {
+    "name": "Donacion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Cantidad": {
+      "type": "decimal",
+      "required": true
+    },
+    "referencia": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "pendiente",
+        "confirmada",
+        "cancelada"
+      ]
+    },
+    "Donador": {
+      "type": "email"
+    },
+    "Fecha": {
+      "type": "datetime"
+    },
+    "campana": {
+      "via": "donaciones",
+      "model": "campana"
+    }
+  }
+}

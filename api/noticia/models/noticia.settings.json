@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "noticias",
+  "info": {
+    "name": "Noticia"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Subtitulo": {
+      "type": "string"
+    },
+    "Contenido": {
+      "type": "richtext"
+    },
+    "Cover": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Fecha": {
+      "type": "datetime"
+    },
+    "Publicada": {
+      "type": "boolean"
+    },
+    "campana": {
+      "via": "noticias",
+      "model": "campana"
+    }
+  }
+}
