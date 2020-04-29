@@ -54,6 +54,12 @@
     "noticias": {
       "collection": "noticia",
       "via": "campana"
+    },
+    "Icono": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
     }
   }
 }
