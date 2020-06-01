@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "informacions",
+  "info": {
+    "name": "Informacion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "icono": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}
