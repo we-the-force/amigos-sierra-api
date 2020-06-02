@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "strapi-plugin-content-manager@3.0.0-beta.19.5",
+      "/home/supervizor/amigos-sierra-api"
+    ]
+  ],
   "_from": "strapi-plugin-content-manager@3.0.0-beta.19.5",
   "_id": "strapi-plugin-content-manager@3.0.0-beta.19.5",
   "_inBundle": false,
@@ -28,9 +34,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.0.0-beta.19.5.tgz",
-  "_shasum": "ef7241f9b98e08964f8b4051125329598f90e3ec",
-  "_spec": "strapi-plugin-content-manager@3.0.0-beta.19.5",
-  "_where": "/Users/gamanox-wtf/wtf/amigos-sierra-api",
+  "_spec": "3.0.0-beta.19.5",
+  "_where": "/home/supervizor/amigos-sierra-api",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
@@ -39,7 +44,6 @@
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@sindresorhus/slugify": "0.9.1",
     "classnames": "^2.2.6",
@@ -66,7 +70,6 @@
     "strapi-utils": "3.0.0-beta.19.5",
     "yup": "^0.27.0"
   },
-  "deprecated": false,
   "description": "A powerful UI to easily manage your data.",
   "engines": {
     "node": ">=10.0.0",

@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "strapi-admin@3.0.0-beta.19.5",
+      "/home/supervizor/amigos-sierra-api"
+    ]
+  ],
   "_from": "strapi-admin@3.0.0-beta.19.5",
   "_id": "strapi-admin@3.0.0-beta.19.5",
   "_inBundle": false,
@@ -29,16 +35,14 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/strapi-admin/-/strapi-admin-3.0.0-beta.19.5.tgz",
-  "_shasum": "2239f282a2e66c063f9f8c230519f6d05fda37a7",
-  "_spec": "strapi-admin@3.0.0-beta.19.5",
-  "_where": "/Users/gamanox-wtf/wtf/amigos-sierra-api",
+  "_spec": "3.0.0-beta.19.5",
+  "_where": "/home/supervizor/amigos-sierra-api",
   "author": {
     "name": "Strapi"
   },
   "bugs": {
     "url": "https://github.com/strapi/strapi-admin/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-async-generator-functions": "^7.2.0",
@@ -126,7 +130,6 @@
     "webpackbar": "^3.2.0",
     "yup": "^0.27.0"
   },
-  "deprecated": false,
   "description": "Strapi Admin",
   "engines": {
     "node": ">=10.0.0",
