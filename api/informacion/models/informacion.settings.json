@@ -30,6 +30,19 @@
     },
     "titulo": {
       "type": "string"
+    },
+    "direccion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "direccion.direccion"
+    },
+    "telefono": {
+      "type": "biginteger"
+    },
+    "redes_sociales": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
     }
   }
 }

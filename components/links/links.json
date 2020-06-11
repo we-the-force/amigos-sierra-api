@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_links_links",
+  "info": {
+    "name": "links",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

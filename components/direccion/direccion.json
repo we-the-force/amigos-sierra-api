@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_direccion_direccions",
+  "info": {
+    "name": "direccion",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
